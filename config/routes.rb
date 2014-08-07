@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-	root_path -> '/'
-	root_url  -> 'http://localhost:3000/'
+	root 'Welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
