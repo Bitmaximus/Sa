@@ -40,4 +40,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'pg'
 gem 'rails_12factor', group: :production
 
-ruby "1.93"
+ruby "1.9.3"
